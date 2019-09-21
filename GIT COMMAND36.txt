@@ -73,5 +73,8 @@ git add.
 git commit 
 git push origin branch25
 
+ git push origin --delete branch36  //删除remote branch 
 
+ git branch -d branch36 //删除本地 branch 
+ git branch -D branch36 //删除本地 为合并branch 
 
