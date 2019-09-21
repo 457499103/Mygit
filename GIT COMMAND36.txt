@@ -62,9 +62,16 @@ git push origin master
 
 git pull
 
-$ git checkout -b branch36
+   git branch -a   // 查看当前分支
+   git branch branch25 //在本地创建分支
+   
+$ git checkout -b branch36  //切换到branch 25 分支
 
 
+
+git add. 
+git commit 
+git push origin branch25
 
 
 
