@@ -1,0 +1,67 @@
+$ git config --global user.name "lp"
+
+
+$ git config --global user.email "457499103@qq.com"
+
+
+$ ssh-keygen -t rsa -C 457499103@qq.com
+
+$ ssh -T git@github.com
+
+
+在本地新建一个项目
+在项目根目录  右键  - git bash - git init 
+
+在远程网站创建GIT项目： 
+
+https://github.com/457499103/Mygit.git
+
+git@github.com:457499103/Mygit.git
+
+echo "# Mygit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/457499103/Mygit.git
+git push -u origin master
+
+echo "# Mygit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:457499103/Mygit.git
+git push -u origin master
+
+
+git remote add origin https://github.com/457499103/Mygit.git
+git push -u origin master
+
+git remote add origin git@github.com:457499103/Mygit.git
+git push -u origin master
+
+
+发送到远程
+
+第一次发布项目  本地到远程
+git add .    // 文件发送到 暂存区
+git commit -m "注释内容-第一次发布"   //暂存区到远程
+
+git push -u origin master
+第一次下项目 远程到本地
+git clone https://github.com/457499103/Mygit.git
+
+
+
+提交 - 本地到远程
+git add .
+git commit -m "提交到分支"
+
+git push origin master
+
+更新 - 远程到本地
+
+git pull
+
+
+
+
