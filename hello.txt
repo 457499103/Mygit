@@ -1,1 +1,2 @@
 hello world!!
+Note pad to open file from git bash!!!
