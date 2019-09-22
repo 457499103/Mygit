@@ -1,2 +1,2 @@
 hello world!!
-Note pad to open file from git bash!!!
+JDK and tomcat install!!
